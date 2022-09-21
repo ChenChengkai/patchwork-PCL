@@ -77,7 +77,7 @@ int main(int argc, char const *argv[])
     std::cout << "Ground Points    #: " << ground.rows() << std::endl;
     std::cout << "Nonground Points #: " << nonground.rows() << std::endl;
 
-
+    std::cout<<"***If this project is useful, please give a star!***"<<std::endl;
     viewTwoPointCloud(cloud_NoGround,cloud_Ground);
 
 
